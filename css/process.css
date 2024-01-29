@@ -1,0 +1,82 @@
+
+.process-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.icon-process--box{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-process {
+    font-size: 2rem;
+    color: rgb(229, 188, 115);
+    position: absolute;
+}
+
+.icon--border {
+    border: 5px solid rgba(229, 188, 115, 0.6);
+}
+
+.icon--next {
+    color: #fff;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.icon--bottom::after {        
+    color: #fff;
+    position: relative;
+    margin-top: 8rem;
+    font-size: 1rem;
+    /* background-color: rgb(229, 188, 115); */
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.icon--top::after {
+    color: #fff;
+    position: relative;
+    margin-top: -8rem;
+    font-size: 1rem;
+    /* background-color: rgb(229, 188, 115); */
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.icon--contacto::after {
+    content: "CONTACTO";
+}
+
+.icon--estrategia::after {
+    content: "ESTRATEGIA";
+}
+
+.icon--visa::after {
+    content: "VISA";
+}
+
+.icon--reunion::after {
+    content: "REUNIÓN";
+}
+
+.icon--solicitud::after {
+    content: "SOLICITUD";
+}
+
+.icon--seguimiento::after {
+    content: "SEGUIMIENTO";
+}
+    

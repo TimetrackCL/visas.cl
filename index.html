@@ -1,0 +1,1528 @@
+<!doctype html>
+<html lang="es-cl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Visas.cl</title>
+    
+    <!-- Bootstrap 5.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/process.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b325f11eca.js" crossorigin="anonymous"></script>    
+
+  </head>
+  <body  data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="15" class="scrollspy-example" tabindex="0">
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="menu">
+        <div class="container">
+          <a class="navbar-brand py-0" href="#">Visas.cl</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end py-md-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#soy-extranjero-exterior" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Soy Extranjero
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#soy-extranjero-exterior">Desde fuera de Chile</a></li>
+                  <li><a class="dropdown-item" href="#soy-extranjero-chile">En Chile</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#soy-chileno" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Soy Chileno
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#soy-chileno">Visas extranjeras</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faqs">FAQ's</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn--yellow px-4" href="#contact">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+
+    <header id="header" class="">
+        <div class="hero">
+            <div class="container d-flex d-flex align-items-end h-100 pt-5 pb-3">
+                <div class="vh-100 d-flex flex-column justify-content-end pb-5">
+                    <div class="pt-5 w-50">
+                        <h1 class="title-main mb-4">¡Te ayudamos <br>a <strong>obtener</strong> tu <strong>visa</strong>!</h1>
+                        <p class="text pb-5">
+                            Cuéntanos si eres una <strong>persona de nacionalidad extranjera</strong> en búsqueda sobre información de <strong>visas chilenas, o si eres chilena o chileno en búsqueda de información sobre una <strong>visa extranjera</strong>. 
+                        </p>
+                    </div>
+
+                    <div class="mt-5 d-flex flex-column flex-lg-row justify-content-center">
+                        <div class="hero-box blur-bg p-4 mb-2">
+                            <h2 class="title-header--small color--yellow"><small>Soy Extranjero</small></h2> 
+                            <h3 class="title--small"><small>Estoy fuera de Chile</small></h3>
+                            <p class="p--header">
+                                Asesoría orientada a personas que residen fuera de Chile y desean inmigrar a Chile.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#soy-extranjero-exterior" class="btn btn--yellow">Más información</a>
+                            </div>
+                        </div>
+
+                        <div class="hero-box blur-bg p-4 mb-2">
+                            <h2 class="title-header--small color--yellow"><small>Soy Extranjero</small></h2> 
+                            <h3 class="title--small"><small class="">Estoy en Chile</small></h3>
+                            <p class="p--header">
+                                Asesoría orientada a personas que ya se encuentran en Chile y desean regularizar su situación migratoria.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#soy-extranjero-chile" class="btn btn--yellow">Más información</a>
+                            </div>
+                        </div>
+
+                        <div class="hero-box blur-bg p-4 mb-2">
+                            <h2 class="title-header--small color--yellow"><small>Soy Chileno</small></h2> 
+                            <h3 class="title--small"><small>Visas Extranjeras</small></h3>
+                            <p class="p--header">
+                                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#soy-chileno" class="btn btn--yellow">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <!-- Seccion Quienes Somos -->
+        <section id="about-us" class="bg--map">
+            <div class="bga-white--50">
+                <div class="container p--section">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex justify-content-end">
+                                <picture>
+                                    <source 
+                                        srcset="/img/logos/logo_fondo-claro.png" 
+                                        type="image/webp">
+                                    
+                                    <img 
+                                        alt="Visas.cl - Logo Estudio Juridico Aguirre y Greene" 
+                                        class="logo--ayg" 
+                                        height="" 
+                                        loading="lazy" 
+                                        src="/img/logos/logo_fondo-claro.png" 
+                                        width="">
+                                </picture>
+                            </div>
+    
+                            <div>
+                                <h2 class="title-section--blue">¿Quiénes somos?</h2>
+                                <h3 class="title--secondary">Nuestra Pasión, la Seguridad de tu Proyecto Migratorio</h3>
+                                <p>
+                                    Somos un grupo de especialistas en derecho migratorio con oficina en Santiago, Chile. Nuestro equipo cuenta con amplia experiencia asesorando a personas residentes en Chile que quieren postular a visas en el extranjero, o bien extranjeros que quieran migrar a Chile o regularizar su situación migratoria en el país.  
+                                </p>
+
+                                <hr>
+
+                                <div class="d-flex justify-content-around">
+                                    <div class="d-flex align-items-center">
+                                        <div class="border-circle--blue d-flex justify-content-center align-items-center">
+                                            <i class="fa-solid fa-handshake about--icon rotate--25"></i>
+                                        </div>
+                                        <span>Integridad y <br> Transparencia</span>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="border-circle--blue d-flex justify-content-center align-items-center">
+                                            <i class="fa-solid fa-medal about--icon"></i>
+                                        </div>
+                                        <span>Expertice y <br> Experiencia</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex justify-content-center h-100 align-items-center">
+                                <div class="deco-image">
+                                    <picture>
+                                        <source 
+                                            height="320" 
+                                            media="(max-width: 599px)" 
+                                            srcset="/img/about-us.jpg" 
+                                            type="image/webp" 
+                                            width="480">
+                                        <source 
+                                            height="760" 
+                                            media="(min-width: 600px)" 
+                                            srcset="/img/about-us.jpg" 
+                                            type="image/webp" 
+                                            width="1900">
+                                        <source 
+                                            height="760" 
+                                            media="(min-width: 600px)" 
+                                            srcset="/img/about-us.jpg" 
+                                            type="image/jpg" 
+                                            width="1900">
+                                        <img 
+                                            alt="Chevrolet Onix Sedán" 
+                                            class="img-hand-trip" 
+                                            height="320" src="/img/about-us.jpg" 
+                                            title="Chevrolet Onix Sedán" 
+                                            width="480">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Seccion Nuestro Proceso -->
+        <section id="process" class="bg--process">
+            <div class="bg-blue--60">
+                <div class="container p--section">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="title-section--yellow">Nuestro Proceso</h2>
+                        </div>
+                        <div class="col-12 col-lg-4">   
+                            <div>
+                                <h3 class="title--secondary text-light">Permitenos <span class="color--yellow">ser tu brújula</span> en el mundo de la <span class="color--yellow">inmigración</span>.</h3>
+                                <p class="text-light">
+                                    Estamos altamente familiarizados con los sistemas, regulaciones y procesos de inmigración en múltiples naciones, lo que nos permite brindar un servicio de alta calidad.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-8">
+                            <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                                <div class="process-box mb-5">
+                                    <p class="icon-process--box icon--border icon--top icon--contacto">
+                                        <i class="fa-solid fa-envelope icon-process"></i>
+                                    </p>
+                                    
+                                    <p class="icon--next">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </p>
+
+                                    <p class="icon-process--box icon--border icon--bottom icon--reunion">
+                                        <i class="fa-solid fa-handshake icon-process"></i>
+                                    </p>
+
+                                    <p class="icon--next">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </p>
+                            
+                                    <p class="icon-process--box icon--border icon--top icon--estrategia">
+                                        <i class="fa-solid fa-chess icon-process"></i>
+                                    </p>
+
+                                    <p class="icon--next">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </p>
+                                
+                                    <p class="icon-process--box icon--border icon--bottom icon--solicitud">
+                                        <i class="fa-solid fa-envelope-open-text icon-process"></i>
+                                    </p>
+
+                                    <p class="icon--next">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </p>
+                            
+                                    <p class="icon-process--box icon--border icon--top icon--visa">
+                                        <i class="fa-solid fa-passport icon-process"></i>
+                                    </p>
+
+                                    <p class="icon--next">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </p>
+                                
+                                    <p class="icon-process--box icon--border icon--bottom icon--seguimiento">
+                                        <i class="fa-solid fa-magnifying-glass icon-process"></i>
+                                    </p>
+                                </div>
+    
+                                <div class="d-flex justify-content-center">
+                                    <a href="#contacto" class="btn btn--yellow">Contáctanos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Seccion Soy Extranjero - Estoy en el extranjero -->
+        <section id="soy-extranjero-exterior" class="bg--map">
+            <div class="bga-white--50">
+                <div class="container p--section">
+                    <div class="d-flex flex-column align-items-center">
+                        <h2 class="title-section--blue">Soy Extranjero</h2>
+                        <h3 class="title--secondary">¿Estás <span class="color--yellow">Fuera</span> de Chile?</h3>
+                    </div>
+                    <p class="text-center mb-5">
+                        Si estás en el extranjero pero tu destino es Chile, ¡nosotros te acompañamos en tu travesía! Ofrecemos asesoría especializada para aquellos que buscan obtener una visa chilena desde fuera del país. Para casos como el tuyo, contamos con:
+                    </p>
+
+                    <div class="row">
+                        <!-- Visa de Turismo -->
+                        <div class="col-12 col-lg-6 px-5 pt-5">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-camera-retro visa-icon--blue"></i>
+                                <div>
+                                    <h4 class="title--small color--blue">Visa de Turismo</h4>
+                                    <p class="mb-4">Busco obtener visa para visitar Chile por un periodo inferior a 90 días.</p>
+
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="link--blue d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#efch-visaturismo">
+                                            Más información <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <article class="modal fade" id="efch-visaturismo" tabindex="-1" aria-labelledby="efch-visaturismoLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg--process">
+                                                <h1 class="modal-title fs-5" id="efch-visaturismoLabel"><strong>Visa de Turismo</strong> para Extranjeros que esten fuera de Chile </h1>
+                                                <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                            </div>
+                                            <div class="modal-body bg--map">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-12 border-bottom mb-4">   
+                                                        <h2 class="title--secondary d-flex align-items-center"><i class="fa-solid fa-camera-retro visa-icon--blue"></i> Visa de <span class="color--yellow mx-2">Turismo</span></h2>
+                                                    </div>
+                                                    <div class="col-12 col-md-6">
+                                                        <p class="mb-0">
+                                                            En Chile, la visa de turismo se obtiene mediante un permiso denominado <b>"permanencia transitoria"</b>. 
+                                                        </p>
+                                                        <p class="my-3">
+                                                            La permanencia transitoria está orientada a:
+                                                        </p>
+                                                        <ul>
+                                                            <li>Personas extranjeras, </li>
+                                                            <li>que residan en extranjero,</li>
+                                                            <li>que deseen visitar Chile, </li>
+                                                            <li>por un periodo inferior a 90 días, </li>
+                                                            <li>sin intenciones de establecerse en el país,</li>
+                                                            <li>Y que cuenten con su pasaporte o documento vigente durante toda la estadía. </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-12 col-md-6">
+                                                        <picture>
+                                                            <img src="img/fuera-chile/visa-turismo.jpg" alt="" class="img-fluid">
+                                                        </picture>
+                                                        <legend class="fs-6 text-end mt-2 fst-italic">Photo by <a href="https://www.pexels.com/photo/person-standing-beside-shore-2017750/" target="_blank">Alisha Lubben</a> en Pexels.</legend>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <p class="mb-1">
+                                                            Este permiso debe ser solicitado en atención a la persona que lo solicita, estableciendo el Estado de Chile las siguientes subcategorías:
+                                                        </p>
+
+                                                        <ul>
+                                                            <li>Extranjeros que ingresan al país con fines de recreo, deportivos, de salud, de estudios, de gestión de negocios, familiares u otros similares.</li>
+                                                            <li>Tripulantes de naves, aeronaves o vehículos de transporte terrestre o ferroviario pertenecientes a empresas que se dediquen al transporte internacional de pasajeros y carga.</li>
+                                                            <li>Permisos contemplados en los traslados internacionales que Chile ha suscrito y se encuentren vigentes. </li>
+                                                            <li>Extranjeros habitantes de zonas fronterizas.</li>
+                                                            <li>Residentes Oficiales que tramitan sus misiones.</li>
+                                                        </ul>
+
+                                                        <p class="mb-1">
+                                                            Se entiende que aquellas personas que cuenten con el permiso de “Permanencia Transitoria” no podrán realizar actividades remuneradas. Excepcionalmente podrán solicitar una “Autorización de Trabajo para titulares de Permanencia Transitoria” las personas que vengan a Chile a realizar actividades específicas y esporádicas como el personal de espectáculos públicos, deportivos, conferencistas, asesores o técnicos expertos.
+                                                        </p>
+                                                    </div>
+                                                    
+
+                                                    <div class="col-12 my-3">
+                                                        <p class="mb-0">
+                                                            Si quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu visa de turismo o permanencia transitoria, agenda una consulta para que conversemos y estudiemos tu caso.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer bg--map">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </article>
+  
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Visa de Trabajo -->
+                        <div class="col-12 col-lg-6 6 px-5 pt-5">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-suitcase visa-icon--blue"></i>
+                                <div>
+                                    <h4 class="title--small color--blue">Visa de Trabajo</h4>
+                                    <p>Busco obtener visa para trabajar en Chile.</p>
+
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="link--blue d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#efch-visatrabajo">
+                                            Más información <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <article class="modal fade" id="efch-visatrabajo" tabindex="-1" aria-labelledby="efch-visatrabajoLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-xl">
+                                            <div class="modal-content">
+                                                <div class="modal-header bg--process">
+                                                    <h1 class="modal-title fs-5" id="efch-visatrabajoLabel"><strong>Visa de Trabajo</strong> para Extranjeros que esten fuera de Chile </h1>
+                                                    <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="modal-body bg--map">
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-12 border-bottom mb-4">   
+                                                            <h2 class="title--secondary d-flex align-items-center"><i class="fa-solid fa-suitcase visa-icon--blue"></i> Visa de <span class="color--yellow mx-2">Trabajo</span></h2>
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <p class="mb-0">
+                                                                En Chile, la <strong>visa de trabajo</strong> se obtiene en un inicio mediante un permiso denominado <strong>"residencia temporal"</strong>. 
+                                                            </p>
+                                                            <p class="my-3">
+                                                                Este permiso es entregado por el <strong>Servicio Nacional de Migraciones</strong>, el cual puede solicitarse a través de la página web <a href="https://tramites.extranjeria.gob.cl/" target="_blank" class="link--blue">https://tramites.extranjeria.gob.cl/</a>.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                La residencia temporal con fines laborales está orientada a:
+                                                            </p>
+
+                                                            <ul class="my-3">
+                                                                <li>Personas extranjeras,</li>
+                                                                <li>que residan en extranjero,</li>
+                                                                <li>que deseen trabajar en Chile,</li>
+                                                                <li>en forma temporal o por un máximo de 2 años.</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <picture>
+                                                                <img src="img/fuera-chile/visa-trabajo.jpg" alt="" class="img-fluid">
+                                                            </picture>
+                                                            <legend class="fs-6 text-end mt-2 fst-italic">Foto de <a href="https://unsplash.com/es/@mauromora?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">mauro  mora</a> en <a href="https://unsplash.com/es/fotos/foto-timelapse-de-gente-pasando-por-la-calle-31-pOduwZGE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+                                                            </legend>
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <p class="my-3">
+                                                                Es importante señalar que las personas que deseen ingresar a Chile con una <strong>visa de trabajo</strong> deben contar, al momento de la solicitud, con <strong>un contrato de trabajo</strong> o <strong>una oferta formal de trabajo</strong> con un empleador que tenga domicilio o sucursal en Chile.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                Si quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu visa de trabajo o residencia temporal, agenda una consulta para que conversemos y estudiemos tu caso.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer bg--map">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                                <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Visa de Negocios -->
+                        <div class="col-12 col-lg-6 6 px-5 pt-5">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-handshake visa-icon--blue" aria-hidden="true"></i>
+                                <div>
+                                    <h4 class="title--small color--blue">Visa de Negocios</h4>
+                                    <p>Busco obtener visa para realizar actividades comerciales en Chile.</p>
+
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="link--blue d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#efch-visanegocio">
+                                            Más información <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <article class="modal fade" id="efch-visanegocio" tabindex="-1" aria-labelledby="efch-visanegocioLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-xl">
+                                            <div class="modal-content">
+                                                <div class="modal-header bg--process">
+                                                    <h1 class="modal-title fs-5" id="efch-visanegocioLabel"><strong>Visa de Negocio</strong> para Extranjeros que esten fuera de Chile </h1>
+                                                    <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="modal-body bg--map">
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-12 border-bottom mb-4">   
+                                                            <h2 class="title--secondary d-flex align-items-center"><i class="fa-solid fa-handshake visa-icon--blue" aria-hidden="true"></i> Visa de <span class="color--yellow mx-2">Negocio</span></h2>
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <p class="mb-0">
+                                                                Para el caso de las <strong>visas de negocios</strong> se debe distinguir el objeto por el cual se realiza el viaje a Chile.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                En el caso en que la persona viaje a Chile para realizar solamente funciones de gestión de negocios de manera esporádica, podrá ingresar a Chile utilizando el permiso de <strong>“Permanencia Transitoria”</strong>.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                En cambio, si debe realizar gestiones ejecutivas o directivas relacionadas con negocios o inversiones que empresas mantengan en Chile que signifiquen que deba entrar regularmente a Chile, deberá solicitar el permiso de <strong>“Residencia Temporal para Personas que realizan gestión de negocios de múltiple entrada”</strong>.
+                                                            </p> 
+                                                            
+                                                            <p class="my-3">
+                                                                Este permiso es entregado por el <strong>Servicio Nacional de Migraciones</strong>, el cual puede solicitarse a través de la página web <a href="https://tramites.extranjeria.gob.cl/" target="_blank">https://tramites.extranjeria.gob.cl/</a>.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                La residencia temporal está orientada a:
+                                                            </p>
+
+                                                            <ul class="my-3">
+                                                                <li>Personas extranjeras,</li>
+                                                                <li>que residan en extranjero,</li>
+                                                                <li>que con ocasión de realizar gestiones ejecutivas o directivas relacionadas con negocios o inversiones que empresas mantengan en Chile,</li>
+                                                                <li>deban entrar regularmente a Chile.</li>
+                                                            </ul>
+
+                                                            <p class="my-3">
+                                                                Si quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu visa de negocios o residencia temporal, agenda una consulta para que conversemos y estudiemos tu caso.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <picture>
+                                                                <img src="img/fuera-chile/visa-negocios.jpg" alt="" class="img-fluid">
+                                                            </picture>
+                                                            <legend class="fs-6 text-end mt-2 fst-italic">Foto de <a href="https://unsplash.com/es/@villxsmil?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Luis Villasmil</a> en <a href="https://unsplash.com/es/fotos/edificio-de-cristal-nnW4ek9ip5s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+                                                            </legend>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer bg--map">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                                <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Visa de Estudios -->
+                        <div class="col-12 col-lg-6 6 px-5 pt-5">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-graduation-cap visa-icon--blue"></i>
+                                <div>
+                                    <h4 class="title--small color--blue">Visa de Estudios</h4>
+                                    <p>Busco obtener visa para estudiar en Chile.</p>
+
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="link--blue d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#efch-visaestudio">
+                                            Más información <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <article class="modal fade" id="efch-visaestudio" tabindex="-1" aria-labelledby="efch-visaestudioLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-xl">
+                                            <div class="modal-content">
+                                                <div class="modal-header bg--process">
+                                                    <h1 class="modal-title fs-5" id="efch-visaestudioLabel"><strong>Visa de Estudios</strong> para Extranjeros que esten fuera de Chile </h1>
+                                                    <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="modal-body bg--map">
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-12 border-bottom mb-4">   
+                                                            <h2 class="title--secondary d-flex align-items-center"><i class="fa-solid fa-graduation-cap visa-icon--blue"></i> Visa de <span class="color--yellow mx-2">Estudios</span></h2>
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <p class="mb-0">
+                                                                En Chile, la <strong>visa de estudios</strong> se obtiene en un inicio mediante un permiso denominado <strong>"residencia temporal para estudiantes de establecimientos reconocidos"</strong>.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                Este permiso es entregado por el <strong>Servicio Nacional de Migraciones</strong>, el cual puede solicitarse a través de la página web <a href="https://tramites.extranjeria.gob.cl/" target="_blank">https://tramites.extranjeria.gob.cl/</a>.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                La residencia temporal para estudiantes está orientada a:
+                                                            </p>
+
+                                                            <ul class="my-3">
+                                                                <li>Personas extranjeras,</li>
+                                                                <li>que residan en extranjero,</li>
+                                                                <li>con el propósito de estudiar en establecimientos educacionales</li>
+                                                                <li>reconocidos por el Estado.</li>
+                                                            </ul>
+                                                                                                                       
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <picture>
+                                                                <img src="img/fuera-chile/visa-estudios.jpg" alt="" class="img-fluid">
+                                                            </picture>
+                                                            <legend class="fs-6 text-end mt-2 fst-italic">Foto de <a href="https://unsplash.com/es/@uns__nstudio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unseen Studio</a> en <a href="https://unsplash.com/es/fotos/persona-que-escribe-en-una-mesa-de-madera-marron-cerca-de-una-taza-de-ceramica-blanca-s9CC2SKySJM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+                                                            </a>
+                                                            </legend>
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <p class="my-3">
+                                                                Si quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu visa de estudios o residencia temporal, agenda una consulta para que conversemos y estudiemos tu caso.
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer bg--map">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                                <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Visa de Reunificación Familiar -->
+                        <div class="col-12 col-lg-6 6 px-5 pt-5">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-house-chimney-user visa-icon--blue"></i>
+                                <div>
+                                    <h4 class="title--small color--blue">Visa de Reunificación Familiar</h4>
+                                    <p>Busco obtener visa para vivir con mi familia en Chile.</p>
+
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="link--blue d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#efch-visareunificacion">
+                                            Más información <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <article class="modal fade" id="efch-visareunificacion" tabindex="-1" aria-labelledby="efch-visareunificacionLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-xl">
+                                            <div class="modal-content">
+                                                <div class="modal-header bg--process">
+                                                    <h1 class="modal-title fs-5" id="efch-visareunificacionLabel"><strong>Visa de Reunificación Familiar</strong> para Extranjeros que esten fuera de Chile </h1>
+                                                    <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="modal-body bg--map">
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-12 border-bottom mb-4">   
+                                                            <h2 class="title--secondary d-flex align-items-center"><i class="fa-solid fa-house-chimney-user visa-icon--blue"></i> Visa de <span class="color--yellow mx-2">Reunificación Familiar</span></h2>
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <p class="mb-0">
+                                                                En Chile, la <strong>visa de reunificación familiar</strong> se obtiene en un inicio mediante un permiso denominado <strong>"residencia temporal"</strong>.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                Este permiso es entregado por el <strong>Servicio Nacional de Migraciones</strong>, el cual puede solicitarse a través de la página web <a href="https://tramites.extranjeria.gob.cl/" target="_blank">https://tramites.extranjeria.gob.cl/</a>.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                La residencia temporal para reunificación familiar está orientada a:
+                                                            </p>
+
+                                                            <ul class="my-3">
+                                                                <li>Personas extranjeras,</li>
+                                                                <li>que residan en extranjero o que vivan en Chile,</li>
+                                                                <li>que tengan cierto parentesco con una persona que tenga Residencia Definitiva,</li>
+                                                                <li>y deseen vivir en Chile.</li>
+                                                            </ul>
+                                                                                                                       
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <picture>
+                                                                <img src="img/fuera-chile/visa-reunificacion.jpg" alt="" class="img-fluid">
+                                                            </picture>
+                                                            <legend class="fs-6 text-end mt-2 fst-italic">Foto de <a href="https://unsplash.com/es/@mscheid?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Mike Scheid</a> en <a href="https://unsplash.com/es/fotos/silueta-del-hombre-de-pie-junto-a-la-orilla-bajo-el-cielo-marron-durante-el-dia-0iqkntLw93A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+  
+                                                            </legend>
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <p class="my-3 fw-bold">
+                                                                ¿Qué relación debo tener con la persona que tiene Residencia Definitiva?
+                                                            </p>
+
+                                                            <ul>
+                                                                <li>Cónyuge u otra figura similar parecida al matrimonio chileno.</li>
+                                                                <li>Padre o madre.</li>
+                                                                <li>Hijo/a menor de edad o con discapacidad.</li>
+                                                                <li>Hijo/a soltero/a menor de 24 años que se encuentre estudiando.</li>
+                                                                <li>Menor de edad que se encuentre bajo su cuidado personal o curaduría.</li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <p class="my-3">
+                                                                Si quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu visa de reunificación familiar o residencia temporal, o tienes un parentesco distinto (por ejemplo, eres abuela o abuelo, tía o tío de la persona con Residencia Definitiva) agenda una consulta para que conversemos y estudiemos tu caso.
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer bg--map">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                                <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Visas Otras Categorías -->
+                        <div class="col-12 col-lg-6 6 px-5 pt-5">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-table-list visa-icon--blue"></i>
+                                <div>
+                                    <h4 class="title--small color--blue">Visas de Otras Categorías</h4>
+                                    <p>Busco obtener visa para vivir en Chile por otro motivo.</p>
+
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="link--blue d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#efch-visasotras">
+                                            Más información <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <article class="modal fade" id="efch-visasotras" tabindex="-1" aria-labelledby="efch-visasotrasLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-xl">
+                                            <div class="modal-content">
+                                                <div class="modal-header bg--process">
+                                                    <h1 class="modal-title fs-5" id="efch-visasotrasLabel"><strong>Visas de Otras Categorías</strong> para Extranjeros que esten fuera de Chile </h1>
+                                                    <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="modal-body bg--map">
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-12 border-bottom mb-4">   
+                                                            <h2 class="title--secondary d-flex align-items-center"><i class="fa-solid fa-table-list visa-icon--blue"></i> Visas de <span class="color--yellow mx-2">Otras Categorías</span></h2>
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <p class="mb-0">
+                                                                En Chile, las visas de otras categorías se pueden obtener, en un inicio, mediante un permiso denominado <strong>"residencia temporal"</strong>.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                El permiso de residencia temporal se clasifica en distintas subcategorías.
+                                                            </p>
+
+                                                            <p class="my-3">
+                                                                Las subcategorías del permiso de residencia temporal son <a href="#indice-1-efch-visasotras"><sup>1</sup></a>:
+                                                            </p>
+
+                                                            <ol class="my-3">
+                                                                <li>Reunificación familiar</li>
+                                                                <li>Personas que desarrollan actividades lícitas remuneradas</li>
+                                                                <li>Estudiantes de establecimientos reconocidos</li>
+                                                                <li>Trabajadores/as de temporada</li>
+                                                                <li>Personas sujetas a la custodia de Gendarmería de Chile</li>
+                                                                <li>Extranjeros que se encuentran en Chile por orden de Tribunales de Justicia</li>
+                                                                <li>Razones humanitarias</li>
+                                                                <li>Personas acogidas a acuerdos internacionales</li>
+                                                                <li>Personas religiosas de cultos reconocidos</li>
+                                                                <li>Personas que se encuentren bajo tratamiento médico</li>
+                                                                <li>Personas jubiladas o rentistas</li>
+                                                                <li>Personas ex titulares de residencia definitiva</li>
+                                                                <li>Inversionistas y personal relacionado</li>
+                                                                <li>Personas que realizas gestión de negocios de múltiple entrada</li>
+                                                                <li>Principios de reciprocidad internacional</li>
+                                                            </ol>
+                                                                                                                       
+                                                        </div>
+                                                        <div class="col-12 col-md-6">
+                                                            <picture>
+                                                                <img src="img/fuera-chile/visa-otras.jpg" alt="" class="img-fluid">
+                                                            </picture>
+                                                            <legend class="fs-6 text-end mt-2 fst-italic"></legend>
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <p class="mt-3">
+                                                                Si quieres que nuestro equipo especializado en derecho migratorio te ayude a escoger la mejor subcategoría de residencia temporal, agenda una consulta para que conversemos y estudiemos tu caso.
+                                                            </p>
+                                                        </div>
+                                                        <hr class="mb-0">
+                                                        <p class="mb-0" id="indice-1-efch-visasotras">
+                                                            <small class="fst-italic">
+                                                                <sup>1</sup> Este es el listado de <a href="https://serviciomigraciones.cl/" target="_blank">https://serviciomigraciones.cl/</a>. El listado de infomigra usa palabras más simples y agrega la categoría “oportunidades laborales”.
+                                                            </small>
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer bg--map">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                                <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Seccion Soy Extranjero - Estoy en Chile -->
+        <section id="soy-extranjero-chile" class="bg--blue">
+            <div class="container p--section">
+                <h2 class="title-section--blue">Soy Extranjero</h2>
+                <h3 class="title--secondary text-light">¿<span class="color--yellow">Estás</span> en Chile?</h3>
+                <p class="text-light">
+                    Estás en Chile y eres extranjero, ¡excelente elección! Para ayudarte en esta nueva etapa, ofrecemos asesoramiento adaptado a tu situación. Descubre cómo podemos ser tu guía para lograr tus objetivos. Cuentanos sobre tu caso:
+                </p>
+
+                <div class="row">
+                    <!-- Ya estoy en Chile -->
+                    <div class="col-12 col-lg-4 px-5">
+                        <div class="text-light">
+                            <div class="border-circle--white d-flex align-items-center justify-content-center mb-4">
+                                <i class="fa-solid fa-location-dot visa-icon--blue m-0"></i>
+                            </div>
+                            <h4 class="title--small text-light">Ya estoy en Chile <br> &nbsp;</h4>
+                            <p>
+                                Asesoría orientada a personas que ya se encuentran en Chile y desean regularizar su situación migratoria.
+                            </p>
+
+                            <div class="d-flex justify-content-end">
+                                <button type="button" class="link--white d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#extEnChile">
+                                    Más información <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+
+                            <!-- Modal -->
+                            <article class="modal fade" id="extEnChile" tabindex="-1" aria-labelledby="extEnChileLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header bg--estoy-chile">
+                                        <h1 class="modal-title fs-5" id="extEnChileLabel"><strong>Soy extranjero</strong> y me encuentro en Chile  </h1>
+                                        <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <div class="modal-body bg--map">
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 border-bottom mb-4">
+                                                <div class="">
+                                                    <h2 class="title-section--yellow">Soy extranjero</h2>   
+                                                    
+                                                    <div>
+                                                            
+                                                        <h2 class="title--secondary mt-0">¡Ya estoy en <span class="color--yellow mx-2">Chile</span>!</h2>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <p class="mb-0 text-black">
+                                                    Si ya te encuentras viviendo en Chile y te gustaría regularizar tu situación migratoria, no existen muchas posibilidades para hacerlo desde la entrada en vigencia de la nueva ley de migraciones.
+                                                </p>
+                                                <p class="my-3 text-black">
+                                                    No obstante lo anterior, recomendamos que te contactes con nuestros abogados especialistas en derecho migratorio para que puedan evaluar con detalle tu caso particular y ver qué opciones te podemos ofrecer.
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <picture>
+                                                    <img src="img/en-chile/estoy-en.chile.jpg" alt="" class="img-fluid">
+                                                </picture>
+                                                <legend class="fs-6 text-end mt-2 fst-italic text-black">Photo by <a href="https://www.pexels.com/photo/black-twist-pen-on-notebook-891059/" target="_blank">Mohammad Danish</a></legend>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer bg--map">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                    </div>
+                                </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Quiero Nacionalizarme -->
+                    <div class="col-12 col-lg-4 px-5 py-lg-0">
+                        <div class="text-light">
+                            <div class="border-circle--white d-flex justify-content-center align-items-center mb-4">
+                                <i class="fa-solid fa-house-circle-check visa-icon--blue m-0"></i>
+                            </div>
+                            <h4 class="title--small text-light">Vivo en Chile <br> y quiero nacionalizarme</h4>
+                            <p>
+                                Asesoría orientada a personas que llevan más de 5 años en el país en forma regular y desean obtener la nacionalidad chilena.
+                            </p>
+
+                            <div class="d-flex justify-content-end">
+                                <button type="button" class="link--white d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#extVivoChile">
+                                    Más información <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+
+                            <!-- Modal -->
+                            <article class="modal fade" id="extVivoChile" tabindex="-1" aria-labelledby="extVivoChileLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header bg--estoy-chile">
+                                        <h1 class="modal-title fs-5" id="extVivoChileLabel"><strong>Soy extranjero</strong> vivo en Chile y quiero Nacionalizarme  </h1>
+                                        <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <div class="modal-body bg--map">
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 border-bottom mb-4">
+                                                <div class="">
+                                                    <h2 class="title-section--yellow">Soy extranjero</h2>   
+                                                    
+                                                    <div>
+                                                            
+                                                        <h2 class="title--secondary mt-0">¡Vivo en Chile y <strong class="color--yellow fw-semibold">quiero Nacionalizarme</strong>!</h2>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <p class="mb-0 text-black">
+                                                    Si cumples con los requisitos para obtener la <strong>nacionalidad chilena</strong> y quieres que nuestro equipo te acompañe en la solicitud de nacionalización chilena, agenda aquí tu consulta con nosotros para que evaluemos tu caso y podamos orientarte en tu proceso de nacionalización chilena.
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <picture>
+                                                    <img src="img/en-chile/quiero-nacionalizarme.jpg" alt="" class="img-fluid">
+                                                </picture>
+                                                <legend class="fs-6 text-end mt-2 fst-italic text-black">Foto de <a href="https://unsplash.com/es/@krakenimages?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">krakenimages</a> en <a href="https://unsplash.com/es/fotos/persona-con-camisa-negra-de-manga-larga-sosteniendo-la-mano-de-las-personas-Y5bvRlcCx8k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+                                                </legend>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer bg--map">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                    </div>
+                                </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Visa en Tramite -->
+                    <div class="col-12 col-lg-4 px-5">
+                        <div class="text-light">
+                            <div class="border-circle--white d-flex justify-content-center align-items-center mb-4">
+                                <i class="fa-solid fa-passport visa-icon--blue m-0"></i>
+                            </div>
+                            <h4 class="title--small text-light">Vivo en Chile <br> y mi visa esta en trámite</h4>
+                            <p>
+                                Asesoría orientada a personas que están tramitando su visa y desean consultar con un abogado especialista en migración.
+                            </p>
+
+                            <div class="d-flex justify-content-end">
+                                <button type="button" class="link--white d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#evchVisaTramite">
+                                    Más información <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+
+                            <!-- Modal -->
+                            <article class="modal fade" id="evchVisaTramite" tabindex="-1" aria-labelledby="evchVisaTramiteLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header bg--estoy-chile">
+                                        <h1 class="modal-title fs-5" id="evchVisaTramiteLabel"><strong>Soy extranjero</strong> y mi visa esta en trámite  </h1>
+                                        <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <div class="modal-body bg--map">
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 border-bottom mb-4">
+                                                <div class="">
+                                                    <h2 class="title-section--yellow">Soy extranjero</h2>   
+                                                    
+                                                    <div>
+                                                            
+                                                        <h2 class="title--secondary mt-0">¡Vivo en Chile y mi <strong class="color--yellow fw-semibold">visa esta en trámite</strong>!</h2>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <p class="mb-0 text-black">
+                                                    Si ya vives en Chile y tu residencia transitoria o permanente <strong>se encuentra en trámite</strong> pero sigues esperando o tienes dudas, haz tus preguntas a un abogado especialista en temas migratorios.
+                                                </p>
+
+                                                <p class="my-3 text-black">
+                                                    Agenda aquí tu consulta con nosotros para que evaluemos tu caso y podemos orientarte en tu proceso de regularización migratoria.
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <picture>
+                                                    <img src="img/en-chile/tramite.jpg" alt="" class="img-fluid">
+                                                </picture>
+                                                <legend class="fs-6 text-end mt-2 fst-italic text-black">Foto de <a href="https://unsplash.com/es/@homajob?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Scott Graham</a> en <a href="https://unsplash.com/es/fotos/hombre-escribiendo-en-papel-OQMZwNd3ThU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+  
+                                                </legend>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer bg--map">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                    </div>
+                                </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Seccion Soy Chileno -->
+        <section id="soy-chileno" class="bg--map">
+            <div class="bga-white--50">
+                <div class="container p--section">
+                    <div class="d-flex flex-column align-items-center">
+                        <h2 class="title-section--blue">Soy Chileno</h2>
+                        <h3 class="title--secondary">¿Necesitas <span class="color--yellow">VISAS</span> para otros países?</h3>
+
+                        <p class="text-center">
+                            Si sueñas con explorar nuevos horizontes en el extranjero, ¡estamos aquí para hacerlo posible! Ofrecemos asesoría especializada para aquellos que desean obtener una visa internacional. Para casos como el tuyo, contamos con:
+                        </p>
+                    </div>
+
+                    <div class="row p-1 p-lg-0">
+                        <!-- EEUU -->
+                        <div class="col-12 col-lg-6 p-4 bg--blue">
+                            <div class="d-flex align-items-center">
+                                <picture>
+                                    <img src="img/otras-visas/flag-eeuu.png" class="img-flag rounded-circle" alt="EEUU">
+                                </picture>
+                                <div class="pt-3">
+                                    <h4 class="title--small text-light">EEUU</h4>
+                                    <p class="mb-4 text-light">Trabajamos en conjunto con abogados migratorios de otros paises, expertos en la tramitación de visas.</p>  
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-end">
+                                <button type="button" class="link-white--secondary d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#eeuu">
+                                    Más información <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+
+                            <!-- Modal -->
+                            <article class="modal fade" id="eeuu" tabindex="-1" aria-labelledby="eeuuLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header bg--process">
+                                        <h1 class="modal-title fs-5" id="eeuuLabel"><strong>Visa Extranjeras</strong> para EEUU </h1>
+                                        <button type="button" class="btn-modal--close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <div class="modal-body bg--map">
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 border-bottom mb-4 d-flex"> 
+                                                <picture>
+                                                    <img src="img/otras-visas/flag-eeuu.png" class="img-flag rounded-2" alt="EEUU">
+                                                </picture>  
+                                                <h2 class="title--secondary d-flex align-items-center">Visa para <span class="color--yellow mx-2">EEUU</span></h2>
+                                            </div>
+                                            <div class="col-12">
+                                                <p class="">
+                                                    Si eres chilena o chileno y quieres emigrar a Estados Unidos de América (EEUU) o USA, tienes distintas opciones dependiendo del motivo:
+                                                </p>
+
+                                                <section class="mb-5">
+                                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                        <!-- EEUU Turismo -->
+                                                        <div id="" class="accordion-item mb-3">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed p-0 eeuu--button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                <i class="fa-solid fa-camera-retro eeuu--turismo"></i> Turismo
+                                                            </button>
+                                                          </h2>
+                                                          <div id="flush-collapseOne" class="accordion-collapse collapse py-3 px-3" data-bs-parent="#accordionFlushExample">
+                                                            <p class="mb-4">
+                                                                Si eres <strong>chilena o chileno y deseas visitar EEUU como turista</strong> por un máximo de 90 días, aprovecha el beneficio del <strong>Programa Visa Waiver o Exención de Visas</strong>. Este Programa le otorga a la beneficiaria o al beneficiario una autorización de viaje electrónica.
+                                                            </p>
+                                                            <p class="mb-4">
+                                                                Para obtener la autorización de viaje electrónica del <strong>Visa Waiver Program</strong>, debes solicitarla a través del <strong>Sistema ESTA (Electronic System Travel Authorization)</strong>, directamente en la página web oficial del gobierno de Estados Unidos de América. <strong>¡Cuidado con las estafas!</strong>
+                                                            </p>
+
+                                                            <p class="mb-4">
+                                                                Recuerda que esta autorización de viaje electrónica <strong>dura 2 años</strong>, por lo tanto recomendamos renovarla algunas semanas antes de viajar.
+                                                            </p>
+
+                                                            <p class="mb-4">
+                                                                Si necesitas ayuda para solicitar la autorización de viaje electrónica o <strong>ESTA</strong>,
+                                                            </p>
+
+                                                            <p class="mb-4">
+                                                                Si tienes más preguntas sobre esta opción o quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu autorización de viaje electrónica o ESTA, agenda una consulta para que conversemos.
+                                                            </p>
+
+                                                            <p class="mb-4">
+                                                                Si tu postulación ESTA fue rechazada, deberás completar una solicitud de visa de No Inmigrante a través del sitio web oficial del gobierno de Estados Unidos de América y acudir a una entrevista presencial en la Sección Consular de la Embajada de Estados Unidos de América en Santiago.
+                                                            </p>
+                                                          </div>
+                                                        </div>
+
+                                                        <div class="accordion-item mb-3">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed p-0 eeuu--button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                                <i class="fa-solid fa-business-time eeuu--negocio"></i> Negocio
+                                                            </button>
+                                                          </h2>
+                                                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body">
+                                                                <p class="mb-4">
+                                                                    Si eres chilena o chileno y deseas visitar EEUU por motivos de negocios por un máximo de 90 días, aprovecha el beneficio del Programa Visa Waiver o Exención de Visas. Este Programa le otorga a la beneficiaria o al beneficiario una autorización de viaje electrónica.
+                                                                </p>
+
+                                                                <p class="mb-4">
+                                                                    Para obtener la autorización de viaje electrónica del Visa Waiver Program, debes solicitarla a través del Sistema ESTA (Electronic System Travel Authorization), directamente en la página web oficial del gobierno de Estados Unidos de América. ¡Cuidado con las estafas!
+                                                                </p>
+
+                                                                <p class="mb-4">
+                                                                    Recuerda que esta autorización de viaje electrónica dura 2 años, por lo tanto recomendamos renovarla algunas semanas antes de viajar.
+                                                                </p>
+
+                                                                <p class="mb-4">
+                                                                    Si necesitas ayuda para solicitar la autorización de viaje electrónica o ESTA,
+                                                                </p>
+
+                                                                <p class="mb-4">
+                                                                    Si tienes más preguntas sobre esta opción o quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu autorización de viaje electrónica o ESTA, agenda una consulta para que conversemos.
+                                                                </p>
+
+                                                                <p class="mb-4">
+                                                                    Si tu postulación ESTA fue rechazada, deberás completar una solicitud de visa de No Inmigrante a través del sitio web oficial del gobierno de Estados Unidos de América y acudir a una entrevista presencial en la Sección Consular de la Embajada de Estados Unidos de América en Santiago.
+                                                                </p>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+
+                                                        <div class="accordion-item mb-3">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed p-0 eeuu--button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                                <i class="fa-solid fa-plane-departure eeuu--transito"></i> Tránsito
+                                                            </button>
+                                                          </h2>
+                                                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body">
+                                                            <p class="mb-4">
+                                                                Si eres chilena o chileno y requieres pasar por Estados Unidos de América, en tránsito, por un máximo de 90 días, aprovecha el beneficio del Programa Visa Waiver o Exención de Visas. Este Programa le otorga a la beneficiaria o al beneficiario una autorización de viaje electrónica.
+                                                            </p>
+
+                                                            <p class="mb-4">
+                                                                Para obtener la autorización de viaje electrónica del Visa Waiver Program, debes solicitarla a través del Sistema ESTA (Electronic System Travel Authorization), directamente en la página web oficial del gobierno de Estados Unidos de América. ¡Cuidado con las estafas! Recuerda que esta autorización de viaje electrónica dura 2 años, por lo tanto recomendamos renovarla algunas semanas antes de viajar.
+                                                            </p>
+
+                                                            <p class="mb-4">
+                                                                Si necesitas ayuda para solicitar la autorización de viaje electrónica o ESTA, oi tienes más preguntas sobre esta opción o quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu autorización de viaje electrónica o ESTA, agenda una consulta para que conversemos.
+                                                            </p>
+
+                                                            <p class="mb-4">
+                                                                Si tu postulación ESTA fue rechazada, deberás completar una solicitud de visa de No Inmigrante a través del sitio web oficial del gobierno de Estados Unidos de América y acudir a una entrevista presencial en la Sección Consular de la Embajada de Estados Unidos de América en Santiago.
+                                                            </p>
+                                                        </div>
+                                                          </div>
+                                                        </div>
+
+                                                        <div class="accordion-item mb-3">
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                  <button class="accordion-button collapsed p-0 eeuu--button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                                    <i class="fa-solid fa-briefcase eeuu--trabajo"></i> Trabajo
+                                                                  </button>
+                                                                </h2>
+                                                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                                  <div class="accordion-body">
+                                                                    <p class="mb-4">
+                                                                        Si eres chilena o chileno y deseas trabajar en Estados Unidos de América (EEUU) o USA, tienes la posibilidad de postular la visa de no inmigrante denominada “Visa B1/B2 de turismo y negocios”.
+                                                                    </p>
+
+                                                                    <p class="mb-5">
+                                                                        Para obtener esta visa, tendrás que reunir los requisitos que establece la autoridad americana y acudir a una entrevista en la Embajada de Estados Unidos en Santiago. Si tienes más preguntas sobre esta visa o quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu visa para migrar a EEUU o USA por motivos laborales, agenda una consulta para que conversemos.
+                                                                    </p>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                      </div>
+                                                </section>
+
+                                                <section>
+                                                    <div class="card mb-3 greencard">
+                                                        <div class="row g-0">
+                                                          <div class="col-md-4">
+                                                            <img src="https://www.shutterstock.com/image-photo/green-card-us-permanent-resident-260nw-1827152819.jpg" class="img-fluid rounded-start" alt="...">
+                                                          </div>
+                                                          <div class="col-md-8">
+                                                            <div class="card-body">
+                                                              <h3 class="title--secondary text-light fw-normal">¿Qué es la <strong class="color--yellow fw-normal">“Green Card”</strong>?</h3>
+                                                              <p class="card-text text-light mb-2">
+                                                                <strong class="color--yellow"></strong> La Green Card no es una visa. La Green Card es el permiso que obtienen los residentes de EEUU después de cumplir ciertos requisitos.
+                                                              </p>
+                                                              <p class="card-text text-light">
+                                                                En general, la Green Card se otorga a personas que han ingresado al país y que cuentan con una visa de inmigrante, por ejemplo, una visa de trabajo o de inversionista.
+                                                              </p>
+
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                </section>
+                                                
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer bg--map">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <a href="#contacto" class="btn btn--yellow btn-yellow--hover rounded-2">Contáctanos</a>
+                                    </div>
+                                </div>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>                 
+                    
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+        </section>
+
+
+
+        <!-- Seccion Contacto -->
+        <section id="contact" class="bg--contact clearfix">
+            <div class="bg-blue--60">
+                <div class="container p--section">
+                    <div class="row">
+                        <div class="col-12 col-md-5">   
+                            <div>
+                                <h2 class="title-section--yellow">Contacto</h2>
+                                <h3 class="title--secondary text-light">Juntos, transformemos tus sueños de un <span class="color--yellow">futuro mejor</span> en logros tangibles.</h3>
+                                <p class="text-light">
+                                    Si quieres que nuestro equipo especializado en derecho migratorio te ayude a tramitar tu visa, agenda una consulta para que conversemos y estudiemos tu caso.
+                                </p>
+                                
+                                <h4 class="title--small text-light">Horario de atención:</h4>
+                                <p class="text-light">Lunes a viernes desde las 9:00 a las 18:00 hrs.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-7 bg-blue--60 p-5">
+                            <h3 class="title--secondary color--yellow">Escribenos</h3>
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                  <input type="text" class="form-control form-btn--input" id="inputEmail4" placeholder="Nombre" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                  <input type="text" class="form-control form-btn--input" id="inputPassword4" placeholder="Apellido" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control form-btn--input" id="inputPassword4" placeholder="Correo" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <select id="inputState" class="form-select form-btn--input" required>
+                                      <option selected>Situación</option>
+                                      <option>Soy extranjero y estoy en Chile</option>
+                                      <option>Soy extranjero y estoy fuera de Chile</option>
+                                      <option>Otro tipo de Visas</option>
+                                      <option>Otro</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <textarea class="form-control form-textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje" required></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                  <div class="d-flex justify-content-end">
+                                    <button type="submit" class="btn btn--yellow">Enviar Mensaje</button>
+                                  </div>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Seccion FAQ's -->
+        <section id="faqs" class="bg--blue">
+            <div class="container p--section">
+                <div class="d-flex flex-column align-items-center">
+                    <h2 class="title-section--yellow">FAQ's</h2>
+                    <h3 class="title--secondary text-light mb-5">Las <span class="color--yellow">respuestas</span> que estás buscando</h3>
+                </div>
+
+                <div class="accordion accordion-flush" id="faq-accordion">
+                    <!-- Pregunta 1 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            1. ¿Cómo funciona el sistema migratorio chileno?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faq-accordion">
+                        <div class="accordion-body">
+                            <p class="mb-3">
+                                Toda persona de nacionalidad extranjera que desee ingresar al territorio chileno debe saber que requiere de un permiso para poder hacerlo, ya sea por motivos de turismo, trabajo o residencia en el país.
+                            </p>
+                            <p class="mb-3">
+                                Para solicitar dicho permiso desde el extranjero se debe distinguir el motivo y la cantidad de tiempo que busca residir en el territorio chileno:
+                            </p>
+                            <p class="mb-3">
+                                Para un importante número de casos, se otorgará el permiso de Permanencia Transitoria al momento de ingresar a Chile sin la necesidad de obtener una autorización previa o visa. Por ejemplo, si el viaje durará menos de 90 días y si cumple con los demás requisitos que exige  la ley. Sin embargo, existen varios casos en que por motivos de interés nacional o de reciprocidad internacional, se exige este trámite previo a las personas de nacionalidad extranjera de determinados países.
+                            </p>
+                            <p class="mb-3">
+                                Dicha autorización previa o visa se debe solicitar a través de un consulado chileno en el exterior utilizando la página web: <a href="https://tramites.minrel.gov.cl/" target="_blank" class="link--white">https://tramites.minrel.gov.cl/</a>. Es decir, el permiso se debe obtener en el país de residencia, antes de viajar a Chile, por la plataforma virtual del Ministerio de Relaciones Exteriores de Chile.
+                            </p>
+                            <p class="mb-3">
+                                <b class="color--yellow">Si la estadía será de más de 90 días (Residencia Temporal o Definitiva)</b>, la solicitud es tramitada por el Servicio Nacional de Migraciones, dependiente del Ministerio del Interior de Chile, a través de su pagina web: <a href="https://tramites.extranjeria.gob.cl/" target="_blank" class="link--white">https://tramites.extranjeria.gob.cl/</a>.
+                            </p>
+                            <p class="mb-3">
+                                En el caso del permiso de <strong class="color--yellow">Residencia Transitoria</strong>, este es otorgado por la autoridad competente al momento de ingresar al control fronterizo de Chile, es decir, Policía Internacional. Si su país requiere la autorización previa o visa, el otorgamiento de esta   corresponderá al consulado chileno de su país.
+                            </p>
+                            <p class="mb-3">
+                                En el caso de las solicitudes de <strong class="color--yellow">Residencia Temporal o Definitivas</strong>, el otorgamiento de estas corresponderá al Servicio Nacional de Migraciones.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Pregunta 2 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                         2. ¿Es posible cambiar desde Residencia Transitoria a Residencia Temporal o Definitiva?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                        <div class="accordion-body">
+                          <p class="mb-3">
+                            Si ya te encuentras en Chile con el permiso de <strong class="color--yellow">Residencia Transitoria</strong> y deseas permanecer por más tiempo en Chile, solamente puedes solicitar una prórroga de la residencia transitoria una única vez y mientras se encuentre vigente dicho permiso, siendo posible prorrogar el permiso por 90 días más. Si deseas residir en Chile, en la mayoría de los casos debes volver a tu país de origen o de residencia, y solicitar desde allí la visa adecuada.
+                          </p>
+
+                          <p class="mb-3">
+                            Sólo se permite solicitar la modificación del permiso de Residencia Transitoria en el caso de solicitar un permiso de <strong class="color--yellow">Residencia Temporal de Reunificación Familiar</strong>, dirigido a personas extranjeras que poseen vínculos de familia con chilenas, chilenos o con personas de nacionalidad extranjera que cuenten con su permiso de residencia definitiva en Chile.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Pregunta 3 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        3. ¿Cuáles son los tiempos estimados de las solicitudes?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                        <div class="accordion-body">
+                            <p class="mb-3">
+                                El tiempo que se pueden demorar en resolver las solicitudes es muy variable y va a depender de la cantidad de trabajo, los antecedentes a analizar y el permiso que se esté solicitando, entre otros factores. 
+                            </p>
+                            <p class="mb-3">
+                                En el caso de solicitarse un permiso de <strong class="color--yellow">Residencia Transitoria</strong> proviniendo de un país que no requiere autorización previa o visa, este se otorga al momento de ingresar a la frontera de Chile, previa revisión por parte de la Policía Internacional.
+                            </p>
+
+                            <p class="mb-3">
+                                En caso de requerir una autorización previa o visa o solicitar un permiso de <strong class="color--yellow">Residencia Temporal</strong>, se estima que su otorgamiento puede demorar entre 90 y 120 días hábiles, por lo que recomendamos planificar el viaje con suficiente tiempo.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Pregunta 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                          4. ¿Cuáles son los requisitos generales de toda visa?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                          <div class="accordion-body">
+                            <p class="mb-3">
+                                Los requisitos para cada visa va a variar de acuerdo a los requisitos específicos de cada una. Pero en términos generales, toda persona que solicite alguna de estas autorizaciones va a requerir:
+                            </p>
+                            <ul class="mb-3">
+                                <li>Su documento de identificación como pasaporte cédula, salvoconducto u otro documento de identidad análogo, en buen estado, válido y vigente según los establecido por acuerdos internacionales.</li>
+                                <li>Demostrar suficiencia de los medios económicos que permitan la subsistencia durante su permanencia en Chile.</li>
+                                <li>Certificado de antecedentes penales o documento equivalente emitido por la autoridad competente de su país de origen o de aquel en el cual hayan residido en los últimos 5 años.</li>
+                            </ul>
+                            <p class="mb-3">
+                                Es importante señalar que los documentos que se acompañen a la solicitud deben estar vigentes, es decir, que la fecha de emisión en caso de documentos emitidos por organismos públicos no podrá ser anterior a los 60 días corridos contados desde la fecha de su presentación y en la caso de documentos emitidos por entidades privadas no podrá ser anterior a 30 días corridos.
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Pregunta 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                            5. ¿Qué es un Certificado de Visa en trámite?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                          <div class="accordion-body">
+                            <p class="mb-3">
+                                En el caso de las personas extranjeras que se encuentren en Chile y que realicen una solicitud, cambio o prórroga de un Permiso de Residencia dentro del país, se les emitirá un <strong class="color--yellow">Certificado de Residencia en Trámite</strong> que dará cuenta del inicio del proceso de tramitación respectivo.
+                            </p>
+                            <p class="mb-3">
+                                Este certificado será emitido por el Servicio Nacional de Migraciones y sólo le será emitido a las personas extranjeras que hagan la solicitud respectiva dentro del territorio chileno. Para quienes lo hagan fuera del territorio chileno, sólo se emitirá un “Comprobante de Envío de Solicitud de Residencia Temporal”. Este Comprobante no los habilita para ingresar al territorio, debiendo esperar que la aprobación de la solicitud.
+                            </p>
+                            <p class="mb-3">
+                                Tal como señalamos, la tramitación del permiso de <strong class="color--yellow">Residencia Temporal</strong> puede tomar un tiempo considerable. Al momento de ingresar la solicitud de permiso se entrega un “Comprobante de Envío de Solicitud de Residencia Temporal”. Este comprobante no tiene la categoría de certificado y sólo sirve para demostrar que se solicitó dicho permiso.
+                            </p>
+
+                            <p class="mb-3">
+                                Es importante que usted al momento de ingresar su solicitud señale un correo electrónico que utilice y al que tenga acceso pues dicho certificado es importante para cosas como:
+                            </p>
+
+                            <ul class="mb-3">
+                                <li>Solicitar un comprobante de estatus migratorio por parte de PDI o Carabineros de Chile.</li>
+                                <li>Trámites laborales, bancarios o con instituciones del comercio o privadas.</li>
+                                <li>Querer entrar o salir de Chile hasta que se obtenga el Certificado de aprobación.</li>
+                                <li>Lo habilitará para realizar actividades remuneradas mientras su solicitud se encuentre pendiente de aprobación.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer id="footer" class="py-3">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row justify-content-between text-light">
+                <p class="mb-2 mb-lg-0"><small>© 2023 Visas.cl. Todos los derechos reservados.</small></p>
+                
+                <div>
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="link--white d-flex align-items-center fw-normal" data-bs-toggle="modal" data-bs-target="#politicas">
+                            <i class="fa-solid fa-lock"></i> <small>Politicas de Privacidad</small></i>
+                        </button>
+                    </div>
+
+                    <!-- Modal -->
+                    <article class="modal fade" id="politicas" tabindex="-1" aria-labelledby="politicasLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="politicasLabel">Políticas de privacidad </h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                             Contenido
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <a href="#contacto" class="btn btn--yellow rounded-2">Contáctanos</a>
+                            </div>
+                        </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Background NavBar Script -->
+    <script>
+        const navE1 = document.querySelector('.navbar');
+        const navLogo = document.querySelector('.nav-logo');
+
+        window.addEventListener('scroll', () => {
+            if(window.scrollY >= 56) {
+                navE1.classList.add('navbar-scrolled');
+                navLogo.classList.add('d-block');
+                navLogo.classList.remove('d-none');
+
+            } else {
+                navE1.classList.remove('navbar-scrolled');
+                navLogo.classList.remove('d-block');
+                navLogo.classList.add('d-none');
+            }
+        })
+    </script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+
+    <script>
+        window.addEventListener("shown.bs.modal", function () {
+            AOS.init({ disable: true });
+        });
+
+        window.addEventListener("hidden.bs.modal", function () {
+            AOS.init({ disable: false });
+        });
+
+    </script>
+
+
+  </body>
+</html>
