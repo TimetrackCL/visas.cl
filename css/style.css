@@ -43,8 +43,8 @@ body {
 
 header {
     height: 100vh;
-    background-image: url('../img/hero/fondo-desktop.jpg');
-    background-position: start;
+    background-image: url('../img/hero/fondo-desktop-mobile.jpg');
+    background-position-x: 90%;
     background-size: cover;
 }
 
@@ -57,6 +57,17 @@ hr {
 
 p {
     margin-bottom: 3rem;
+}
+
+a {
+    /* color: #929292; */
+    color: var(--color--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color--yellow);
+    text-decoration: none;
 }
 
 
@@ -111,17 +122,15 @@ p {
     background-color: var(--color--yellow);
 }
 
+.navbar-toggler {
+    border-color: var(--color--white)!important;
+}
+
 
 /*
  * Background Style
  * ----------------
  */
-
-.p--header {
-    font-weight: 300;
-    margin-bottom: 1rem;
-}
-
 .bg--blue {
     background-color: var(--color--blue);
 }
@@ -129,6 +138,12 @@ p {
 .bg--yellow {
     background-color: var(--color--yellow);
 }
+
+
+/*
+ * Color Text Style
+ * ----------------
+ */
 
 .color--blue {
     color: var(--color--blue);
@@ -138,16 +153,23 @@ p {
     color: var(--color--yellow)!important;
 }
 
+/*
+ * Hero Style
+ * -----------
+ */
+
 .hero {
     background-color: rgba(24, 50, 76, 0.6);
     color: var(--color--white);
 }
 
-.title-main {
-    color: var(--color--white);
-    font-size: 3.65rem;
-    font-weight: normal;
-    font-family: var(--font-montserrat);
+.hero__text {
+    width: 100%;
+}
+
+.p--header {
+    font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .hero-box {
@@ -166,6 +188,20 @@ p {
     backdrop-filter: saturate(180%) blur(20px);
     background-color: #ffffff21;
 }
+
+
+/*
+ * Text Style
+ * -----------
+ */
+.title-main {
+    color: var(--color--white);
+    font-size: 3.65rem;
+    font-weight: normal;
+    font-family: var(--font-montserrat);
+}
+
+
 
 .bg--map{
     background-image: url("../img/team-bg.jpg");
@@ -194,8 +230,8 @@ p {
 }
 
 .bg--contact {
-    background-image: url("../img/bg-contact.jpg");
-    background-position: center;
+    background-image: url("../img/bg-contact-mobile.jpg");
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -390,7 +426,7 @@ p {
 }
 
 .p--section {
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 6rem;
 }
 
@@ -441,12 +477,16 @@ p {
 #faq-accordion .accordion-button {
     background-color: var(--color--blue);
     color: var(--color--white);
+    font-size: 1.175rem;
+    font-weight: 700;
 }
 
 #faq-accordion .accordion-button[aria-expanded=true],
 #faq-accordion .accordion-button:hover {
-    background-color: var(--color--yellow);
-    border-color: var(--color--yellow);
+    /* background-color: var(--color--yellow);
+    border-color: var(--color--yellow); */
+    background-color: #2a5886;
+    border-color: #2a5886;
 }
 
 #faq-accordion .accordion-item {
@@ -588,5 +628,9 @@ select.form-select option {
 .form-select::placeholder,
 .form-textarea::placeholder {
     color: rgba(255, 255, 255, 0.8)!important;
+}
+
+.border-bottom--yellow {
+    border-bottom: 2px solid rgb(229, 188, 115);
 }
 

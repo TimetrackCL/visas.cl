@@ -1,0 +1,47 @@
+@media (min-width: 576px) { 
+
+}
+
+
+@media (min-width: 768px) { 
+
+    header {
+        height: 100vh;
+        background-image: url('../img/hero/fondo-desktop.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bg--contact {
+        background-image: url("../img/bg-contact.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero__text {
+        max-width: 50%;
+    }
+}
+
+
+@media (min-width: 992px) { 
+    .hero {
+        height: 100vh;
+    }
+
+    .p--section {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }
+
+
+@media (min-width: 1400px) { 
+
+ }
