@@ -634,3 +634,44 @@ select.form-select option {
     border-bottom: 2px solid rgb(229, 188, 115);
 }
 
+
+
+/*
+ * To Top
+ * -----------
+ */
+.goTop {
+    font-weight: 900;
+    color: #fff;
+    background: rgb(126, 186, 3);
+    background-color: rgb(126, 186, 3);
+    position: fixed;
+    /* display: none; */
+    right: 34px;
+    bottom: 34px;
+    z-index: 1999;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 36px;
+    border-radius: 50%;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.top-visible {
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    background-color: #e5bc73;
+  }
+
+a:hover.goTop {
+    color: white!important;
+}
+
+a:hover.top-visible {
+    background-color: var(--color--blue); 
+}

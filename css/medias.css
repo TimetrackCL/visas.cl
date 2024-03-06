@@ -5,12 +5,7 @@
 
 @media (min-width: 768px) { 
 
-    header {
-        height: 100vh;
-        background-image: url('../img/hero/fondo-desktop.jpg');
-        background-position: top;
-        background-size: cover;
-    }
+    
 
     .bg--contact {
         background-image: url("../img/bg-contact.jpg");
@@ -43,5 +38,10 @@
 
 
 @media (min-width: 1400px) { 
-
+    header {
+        height: 100vh;
+        background-image: url('../img/hero/fondo-desktop.jpg');
+        background-position: top;
+        background-size: cover;
+    }
  }

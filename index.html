@@ -1432,6 +1432,10 @@
         </div>
     </footer>
 
+    <a id="" href="#header" class="goTop top-visible">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
 
 
     <!-- Bootstrap Script -->
@@ -1444,20 +1448,33 @@
     <!-- Background NavBar Script -->
     <script>
         const navE1 = document.querySelector('.navbar');
-        const navLogo = document.querySelector('.nav-logo');
+        // const navLogo = document.querySelector('.nav-logo');
+        const goTopButton = document.querySelector('.goTop');
+
 
         window.addEventListener('scroll', () => {
             if(window.scrollY >= 56) {
                 navE1.classList.add('navbar-scrolled');
-                navLogo.classList.add('d-block');
-                navLogo.classList.remove('d-none');
+                // navLogo.classList.add('d-block');
+                // navLogo.classList.remove('d-none');
+
+                goTopButton.classList.add('top-visible');
+                goTopButton.classList.remove('d-none');
+                
+                console.log(goTopButton);
 
             } else {
                 navE1.classList.remove('navbar-scrolled');
-                navLogo.classList.remove('d-block');
-                navLogo.classList.add('d-none');
+                // navLogo.classList.remove('d-block');
+                // navLogo.classList.add('d-none');
+
+                goTopButton.classList.add('d-none');
+                goTopButton.classList.remove('top-visible');
+
+                console.log(goTopButton);
             }
         })
+
     </script>
 
     <script>
