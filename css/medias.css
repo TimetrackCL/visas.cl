@@ -29,6 +29,11 @@
         padding-top: 6rem;
         padding-bottom: 6rem;
     }
+
+    .goTop {
+        right: 34px;
+        bottom: 34px;
+    }
  }
 
 
