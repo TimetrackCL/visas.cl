@@ -5,6 +5,12 @@
 
 @media (min-width: 768px) { 
 
+    header {
+        height: 100%;
+        background-image: url('../img/hero/fondo-desktop.jpg');
+        background-size: cover;
+        background-position: start;
+    }
     
 
     .bg--contact {
@@ -21,9 +27,7 @@
 
 
 @media (min-width: 992px) { 
-    .hero {
-        height: 100vh;
-    }
+    
 
     .p--section {
         padding-top: 6rem;
@@ -44,9 +48,12 @@
 
 @media (min-width: 1400px) { 
     header {
-        height: 100vh;
-        background-image: url('../img/hero/fondo-desktop.jpg');
+        height: 100%;
         background-position: top;
         background-size: cover;
+    }
+
+    .hero {
+        height: 100vh;
     }
  }
