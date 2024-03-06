@@ -648,7 +648,7 @@ select.form-select option {
     position: fixed;
     /* display: none; */
     right: 34px;
-    bottom: 60px;
+    bottom: 65px;
     z-index: 1999;
     height: 0;
     width: 0;
@@ -674,4 +674,8 @@ a:hover.goTop {
 
 a:hover.top-visible {
     background-color: var(--color--blue); 
+}
+
+a[href="#contact"].active {
+    color: var(--color--white)!important;
 }
