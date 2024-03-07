@@ -38,6 +38,11 @@
         right: 34px;
         bottom: 34px;
     }
+
+    .navbar-collapse {
+        background-color: transparent;
+        padding-left: 0;
+    }
  }
 
 

@@ -126,6 +126,15 @@ a:hover {
     border-color: var(--color--white)!important;
 }
 
+.icon--menu {
+    color: var(--color--white);
+}
+
+.navbar-collapse {
+    background-color: rgb(24, 50, 76);;
+    padding-left: 1rem;
+}
+
 
 /*
  * Background Style
