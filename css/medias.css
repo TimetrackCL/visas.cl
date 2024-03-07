@@ -23,6 +23,12 @@
     .hero__text {
         max-width: 50%;
     }
+
+
+    .p--section--contact {
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+    }
 }
 
 
@@ -42,6 +48,16 @@
     .navbar-collapse {
         background-color: transparent;
         padding-left: 0;
+    }
+
+    .title--third {
+        font-size: 1.875rem;
+        font-weight: 700;
+    }
+
+    .visa-icon--blue {
+        font-size: 3rem;
+        margin-right: 1rem;
     }
  }
 

@@ -135,6 +135,10 @@ a:hover {
     padding-left: 1rem;
 }
 
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
 
 /*
  * Background Style
@@ -304,6 +308,14 @@ a:hover {
     color: var(--color--blue);
 }
 
+.title--third {
+    font-family: var(--font-montserrat);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color--blue);
+    margin-bottom: 0;
+}
+
 .title--small {
     font-family: var(--font-montserrat);
     font-size: 1.25rem;
@@ -335,9 +347,9 @@ a:hover {
 }
 
 .visa-icon--blue {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--color--blue);
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .link--blue {
@@ -437,6 +449,11 @@ a:hover {
 .p--section {
     padding-top: 4rem;
     padding-bottom: 6rem;
+}
+
+.p--section--contact {
+    padding-top: 4rem;
+    padding-bottom: 0;
 }
 
 .icon--process {
