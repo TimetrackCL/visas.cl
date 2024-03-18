@@ -77,4 +77,8 @@
     .hero {
         height: 100vh;
     }
+
+    .logo-ayg--dark {
+        max-height: 100px;
+    }
  }

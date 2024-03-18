@@ -139,6 +139,11 @@ a:hover {
     box-shadow: 0 0 0 0;
 }
 
+.logo-ayg--dark {
+    max-height: 80px;
+    width: auto;
+}
+
 
 /*
  * Background Style
