@@ -687,8 +687,8 @@ select.form-select option {
     background-color: rgb(126, 186, 3);
     position: fixed;
     /* display: none; */
-    right: 34px;
-    bottom: 65px;
+    right: 20px;
+    bottom: 85px;
     z-index: 1999;
     height: 0;
     width: 0;
@@ -719,3 +719,68 @@ a:hover.top-visible {
 a[href="#contact"].active {
     color: var(--color--white)!important;
 }
+
+
+/*
+ * Btn Whatsapp
+ * -----------
+ */
+
+.btn--whatsapp {
+    font-weight: 900;
+    color: #fff;
+    background: rgb(126, 186, 3);
+    background-color: rgb(126, 186, 3);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1999;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    padding-top: 4px;
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+    -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.btn--whatsapp:hover {
+    color: #fff;
+    background-color: var(--color--yellow);
+}
+
+@-webkit-keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    @keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+} 

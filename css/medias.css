@@ -40,11 +40,6 @@
         padding-bottom: 6rem;
     }
 
-    .goTop {
-        right: 34px;
-        bottom: 34px;
-    }
-
     .navbar-collapse {
         background-color: transparent;
         padding-left: 0;
@@ -80,5 +75,15 @@
 
     .logo-ayg--dark {
         max-height: 100px;
+    }
+
+    .btn--whatsapp {
+        right: 34px;
+        bottom: 34px;
+    }
+
+    .goTop {
+        right: 34px;
+        bottom: 94px;
     }
  }
