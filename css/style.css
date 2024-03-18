@@ -688,7 +688,7 @@ select.form-select option {
     position: fixed;
     /* display: none; */
     right: 20px;
-    bottom: 85px;
+    bottom: 95px;
     z-index: 1999;
     height: 0;
     width: 0;
@@ -733,7 +733,7 @@ a[href="#contact"].active {
     background-color: rgb(126, 186, 3);
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 30px;
     z-index: 1999;
     text-align: center;
     line-height: 36px;
