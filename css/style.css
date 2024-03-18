@@ -166,6 +166,10 @@ a:hover {
     color: var(--color--yellow)!important;
 }
 
+.color--text {
+    color: #4d4d4d;
+}
+
 /*
  * Hero Style
  * -----------
