@@ -484,6 +484,7 @@ a:hover {
 
 .modal-footer {
     background-color: #4d4d4d;
+    padding-right: 4rem!important;
 }
 
 .fa-lock{

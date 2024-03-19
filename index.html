@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     
     <title>Visas.cl</title>
     
@@ -18,7 +20,8 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/b325f11eca.js" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/b325f11eca.js" crossorigin="anonymous"></script>   
+    
 
   </head>
   <body  data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="15" class="scrollspy-example" tabindex="0">
@@ -1216,21 +1219,22 @@
 
                         <div class="col-12 col-md-7 bg-blue--60 p-5">
                             <h3 class="title--secondary color--yellow">Escríbenos</h3>
-                            <form class="row g-3">
+                            <form class="row g-3" action="https://formspree.io/f/mqkrdbjl"
+                            method="POST">
                                 <div class="col-md-6">
-                                  <input type="text" class="form-control form-btn--input" id="inputEmail4" placeholder="Nombre" required>
+                                  <input type="text" class="form-control form-btn--input" id="nombre" name="nombre" placeholder="Nombre" required>
                                 </div>
 
                                 <div class="col-md-6">
-                                  <input type="text" class="form-control form-btn--input" id="inputPassword4" placeholder="Apellido" required>
+                                  <input type="text" class="form-control form-btn--input" id="apellido" name="apellido" placeholder="Apellido" required>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <input type="email" class="form-control form-btn--input" id="inputPassword4" placeholder="Correo" required>
+                                    <input type="email" class="form-control form-btn--input" id="correo" name="correo" placeholder="Correo" required>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <select id="inputState" class="form-select form-btn--input" required>
+                                    <select id="optsituation" name="optsituation" class="form-select form-btn--input" required>
                                       <option selected>Situación</option>
                                       <option>Soy extranjero y estoy en Chile</option>
                                       <option>Soy extranjero y estoy fuera de Chile</option>
@@ -1240,7 +1244,7 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <textarea class="form-control form-textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje" required></textarea>
+                                    <textarea class="form-control form-textarea" id="message" name="message" rows="3" placeholder="Mensaje" required></textarea>
                                 </div>
 
                                 <div class="col-12">
@@ -1533,7 +1537,6 @@
                 goTopButton.classList.add('top-visible');
                 goTopButton.classList.remove('d-none');
                 
-                console.log(goTopButton);
 
             } else {
                 navE1.classList.remove('navbar-scrolled');
@@ -1543,7 +1546,6 @@
                 goTopButton.classList.add('d-none');
                 goTopButton.classList.remove('top-visible');
 
-                console.log(goTopButton);
             }
         })
 
@@ -1565,6 +1567,11 @@
             AOS.init({ disable: false });
         });
 
+    </script>
+
+    <script>
+        const mimodal = document.querySelector('.modal');
+        
     </script>
 
 

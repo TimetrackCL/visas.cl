@@ -1,5 +1,7 @@
 @media (min-width: 576px) { 
-
+    .modal-footer {
+        padding-right: 2rem!important;
+    }
 }
 
 
@@ -28,6 +30,10 @@
     .p--section--contact {
         padding-top: 4rem;
         padding-bottom: 6rem;
+    }
+
+    .modal-footer {
+        padding-right: 10px!important;
     }
 }
 
