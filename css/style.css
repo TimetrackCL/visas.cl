@@ -37,6 +37,8 @@ body {
     font-size: 1.125rem;
     box-sizing: border-box;
     color: #4d4d4d;
+    overflow-x: hidden;
+
 }
 
 
@@ -46,6 +48,10 @@ header {
     background-image: url('../img/hero/fondo-desktop-mobile.jpg');
     background-position-x: 90%;
     background-size: cover;
+}
+
+section {
+    overflow: hidden;
 }
 
 hr {
