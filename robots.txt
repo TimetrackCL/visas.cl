@@ -1,5 +1,7 @@
-robots.txt 
+User-agent: Googlebot
+Disallow: /clients/
+Disallow: /not-for-google
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+Disallow: /archive/
+Disallow: /support/
 Sitemap: https://visas.cl/sitemap.xml
