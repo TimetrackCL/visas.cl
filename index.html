@@ -35,6 +35,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="15" class="scrollspy-example" tabindex="0">
@@ -1435,7 +1438,11 @@
 
                         <div class="col-12 col-md-7 bg-blue--60 p-5" data-aos="fade-left">
                             <h3 class="title--secondary color--yellow">Escríbenos</h3>
-                            <form class="row g-3" action="https://formspree.io/f/mqkrdbjl" method="POST">
+                            <form 
+                                class="row g-3" 
+                                action="https://formspree.io/f/mrgnnekz"
+                                method="POST">
+
                                 <div class="col-md-6">
                                     <input type="text" class="form-control form-btn--input" id="nombre" name="Nombre"
                                         placeholder="Nombre" required>
@@ -1469,9 +1476,8 @@
 
                                 <div class="col-12">
                                     <div class="d-flex justify-content-end">
-                                        <button type="submit" class="btn btn--yellow g-recaptcha"
-                                            data-sitekey="6LcJlu4pAAAAACUd-m1gN8tG2hpuh2flPFZF9GQu"
-                                            data-callback='onSubmit' data-action='submit'>Enviar
+                                        <div class="g-recaptcha" ></div>
+                                        <button type="submit" class="btn btn--yellow g-recaptcha" data-sitekey="6LdEuPUpAAAAACdf5iK3XqMHFRvEE5-P5MQg7E2F">Enviar
                                             mensaje</button>
                                     </div>
                                 </div>
@@ -2074,15 +2080,6 @@
                 }
             }
         ]
-    </script>
-
-
-
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-        function onSubmit(token) {
-            document.getElementById("demo-form").submit();
-        }
     </script>
 </body>
 
