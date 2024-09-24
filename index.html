@@ -34,10 +34,19 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- Script de reCAPTCHA -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-
+    <!-- Script de reCAPTCHA v3 -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Le39E0qAAAAADa22VSiA6I0MIplsUld0w2SeXCE"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6Le39E0qAAAAADa22VSiA6I0MIplsUld0w2SeXCE', {
+                action: 'submit'
+            }).then(function (token) {
+                // Añadir el token al campo hidden antes de enviar el formulario
+                document.getElementById('g-recaptcha-response').value = token;
+            });
+        });
+    </script>
 
 </head>
 
@@ -1439,7 +1448,8 @@
 
                         <div class="col-12 col-md-7 bg-blue--60 p-5" data-aos="fade-left">
                             <h3 class="title--secondary color--yellow">Escríbenos</h3>
-                            <form class="row g-3" action="https://formspree.io/f/mrgnnekz" method="POST">
+                            <form class="row g-3" id="contactForm" action="https://formspree.io/f/mrgnnekz"
+                                method="POST">
 
                                 <div class="col-md-6">
                                     <input type="text" class="form-control form-btn--input" id="nombre" name="Nombre"
@@ -1472,11 +1482,8 @@
                                         placeholder="Mensaje" required></textarea>
                                 </div>
 
-                                <!-- Aquí agregamos el reCAPTCHA -->
-                                <div class="col-12">
-                                    <div class="g-recaptcha" data-sitekey="6LcJlu4pAAAAACUd-m1gN8tG2hpuh2flPFZF9GQu">
-                                    </div>
-                                </div>
+                                <!-- Token reCAPTCHA -->
+                                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
                                 <div class="col-12">
                                     <div class="d-flex justify-content-end">
