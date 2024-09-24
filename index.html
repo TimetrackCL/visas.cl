@@ -34,14 +34,10 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- Script de reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-    <script>
-        function onSubmit() {
-            document.getElementById("myForm").submit()
-        }
-    </script>
+
 
 </head>
 
@@ -1476,16 +1472,20 @@
                                         placeholder="Mensaje" required></textarea>
                                 </div>
 
+                                <!-- Aquí agregamos el reCAPTCHA -->
+                                <div class="col-12">
+                                    <div class="g-recaptcha" data-sitekey="6LcJlu4pAAAAACUd-m1gN8tG2hpuh2flPFZF9GQu">
+                                    </div>
+                                </div>
+
                                 <div class="col-12">
                                     <div class="d-flex justify-content-end">
-                                        <div class="g-recaptcha"></div>
-                                        <button type="submit" class="btn btn--yellow g-recaptcha"
-                                            data-sitekey="6LcJlu4pAAAAACUd-m1gN8tG2hpuh2flPFZF9GQu">Enviar
-                                            mensaje</button>
+                                        <button type="submit" class="btn btn--yellow">Enviar mensaje</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
+
                     </div>
                 </div>
             </div>
